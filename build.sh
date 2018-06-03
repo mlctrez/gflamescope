@@ -20,7 +20,7 @@ cd ../../../
 
 rm -rf gflamescope
 
-go build -o gflamescope ../main.go
+vgo build -o gflamescope ../main.go
 
 cat flamescope-ui.zip >> gflamescope
 
