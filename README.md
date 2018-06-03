@@ -23,7 +23,7 @@ like that.
 ```text
 Usage of gflamescope:
   -root string
-        examples root (default "examples")
+        directory (and sub directories) where perf files are located (default "examples")
 ```
 
 

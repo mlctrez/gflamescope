@@ -130,7 +130,7 @@ func Stack(rw web.ResponseWriter, req *web.Request) {
 }
 
 func main() {
-	rp := flag.String("root", "examples", "examples root")
+	rp := flag.String("root", "examples", "directory (and sub directories) where perf files are located")
 	flag.Parse()
 
 	if fi, err := os.Stat(*rp); err != nil {
